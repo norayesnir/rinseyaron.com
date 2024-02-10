@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="grid-container">
+    <AppNavigationMenu />
     <slot />
   </div>
 </template>
@@ -9,5 +10,4 @@
 </script>
 
 <style>
-
 </style>
